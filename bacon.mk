@@ -74,7 +74,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     mm.enable.smoothstreaming=true \
-    mm.enable.qcom_parser=3310129 \
     audio.offload.buffer.size.kb=32 \
     audio.offload.video=true \
     use.voice.path.for.pcm.voip=true \
