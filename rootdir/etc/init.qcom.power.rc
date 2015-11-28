@@ -59,10 +59,7 @@ on enable-low-power
     write /sys/module/msm_thermal/core_control/enabled 0
 
     write /sys/kernel/cpu_input_boost/ib_freqs "1036800 1190400"
-    write /sys/kernel/cpu_input_boost/ib_duration_ms 1500
-    write /sys/kernel/cpu_input_boost/load_based_syncs 1
-    write /sys/kernel/cpu_input_boost/migration_boost_ms 20
-    write /sys/kernel/cpu_input_boost/migration_load_threshold 40
+    write /sys/kernel/cpu_input_boost/ib_duration_ms 1400
     write /sys/kernel/cpu_input_boost/enabled 1
 
     write /sys/kernel/msm_thermal/enabled 0
